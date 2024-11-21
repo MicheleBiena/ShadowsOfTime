@@ -26515,7 +26515,7 @@ mondata SPECIES_SINFAE_SHADOW, "-----"
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEVITATE, ABILITY_NONE
     runchance 0
-    colorflip BODY_COLOR_PURPLE, 0
+    colorflip BODY_COLOR_RED, 0
 
 mondata SPECIES_GROWLITHE_HISUIAN, "-----"
     basestats 60, 75, 45, 55, 65, 50

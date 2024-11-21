@@ -1083,5 +1083,9 @@
 /* SPECIES_IRON_CROWN      */ .halfword 24
 /* SPECIES_TERAPAGOS       */ .halfword 24
 /* SPECIES_PECHARUNT       */ .halfword 24
+/* SPECIES_TERRATOPS       */ .halfword 24
+/* SPECIES_IGNISOAR        */ .halfword 24
+/* SPECIES_DIPPLASH        */ .halfword 24
+/* SPECIES_SINFAE          */ .halfword 24
 
 .close

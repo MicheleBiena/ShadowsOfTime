@@ -469,11 +469,13 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             {
                 sp->client_work = sp->attack_client;
                 if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 0) {
-                    sp->battlemon[sp->client_work].form_no = 1;
-                    BattleFormChange(sp->client_work, sp->battlemon[sp->client_work].form_no, bw, sp, 0);
+                    sp->battlemon[sp->client_work].species = SPECIES_SINFAE_SHADOW;
+                    sp->battlemon[sp->attack_client].form_no = 1;
+                    BattleFormChange(sp->client_work, sp->battlemon[sp->attack_client].form_no, bw, sp, 0);
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORM_CHANGE);
                     runMyScriptInstead = 1;
                 }
+
             }
             else
             {
